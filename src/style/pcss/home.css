@@ -1,0 +1,30 @@
+.cover-image {
+    width: 100vw;
+    height: 95vh;
+}
+
+.cover-title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10vw !important;
+}
+
+.cover-title-2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: white;
+    font-size: 2.5vw !important;
+    transform: translate(-50%, -50%);
+}
+
+.join-community {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 3rem !important;
+    transform: translate(-50%, -50%);
+}
