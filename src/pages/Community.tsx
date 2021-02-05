@@ -53,7 +53,7 @@ function Community() {
                         <h1 className="p-4 text-center">Wie verbinde ich mich?</h1>
                         <div className="container">
                             <ul className="matrix-list">
-                                <li>Geh zu <a href="https://riot.oblivioncoding.pro">riot.oblivioncoding.pro</a> oder
+                                <li>Geh zu <a href="https://element.oblivioncoding.pro">element.oblivioncoding.pro</a> oder
                                     zu <a
                                         href="https://roit.im/app">riot.im</a></li>
                                 <li>Klicke auf Account erstellen</li>
@@ -69,7 +69,7 @@ function Community() {
                                 <li>Speicher dir den Wiederherstellungskey ab</li>
                                 <li>Drücke auf Erkunden um die Räume des Servers zu erkunden</li>
                                 <li>Tritt unserer Community bei <a
-                                    href="https://riot.oblivioncoding.pro/#/group/+oblivioncoding:oblivioncoding.pro">https://riot.oblivioncoding.pro/#/group/+oblivioncoding:oblivioncoding.pro</a>
+                                    href="https://element.oblivioncoding.pro/#/group/+oblivioncoding:oblivioncoding.pro">https://element.oblivioncoding.pro/#/group/+oblivioncoding:oblivioncoding.pro</a>
                                 </li>
                             </ul>
                         </div>
