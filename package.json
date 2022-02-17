@@ -34,8 +34,8 @@
     "build:css": "postcss src/style/pcss/*.css --base src/style/pcss --dir src/style/build",
     "watch:css": "postcss src/style/pcss/*.css --base src/style/pcss --dir src/style/build -w",
     "start": "npm-run-all -p watch:css start-js",
-    "start-js": "react-scripts start",
-    "build-js": "react-scripts build",
+    "start-js": "react-scripts --openssl-legacy-provider start",
+    "build-js": "react-scripts --openssl-legacy-provider build",
     "build": "npm-run-all build:css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
