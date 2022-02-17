@@ -59,7 +59,7 @@ function Community() {
                                 <li>Klicke auf Account erstellen</li>
                                 <li>Wähle Erweitert oder Andere um einen angepassten Server einzutragen</li>
                                 <li>Gib folgende Adresse in das Feld mit der Heimserver-Adresse ein: <a
-                                    href="https://synpase.oblivioncoding.pro">https://synpase.oblivioncoding.pro</a>
+                                    href="https://hs.obco.pro">https://hs.obco.pro</a>
                                 </li>
                                 <li>Vergib einen Benutzernamen und ein Passwort (und bestätige es)
                                     und gib optional eine Email Adresse ein
@@ -69,13 +69,13 @@ function Community() {
                                 <li>Speicher dir den Wiederherstellungskey ab</li>
                                 <li>Drücke auf Erkunden um die Räume des Servers zu erkunden</li>
                                 <li>Tritt unserer Community bei <a
-                                    href="https://element.oblivioncoding.pro/#/group/+oblivioncoding:oblivioncoding.pro">https://element.oblivioncoding.pro/#/group/+oblivioncoding:oblivioncoding.pro</a>
+                                    href="https://chat.obco.pro/">https://chat.obco.pro/</a>
                                 </li>
                             </ul>
                         </div>
                         <h2 className="text-center pb-5 ">Eine detailiertere Anleitung findest du auf <a
-                            href="https://matrix.org/">Matrix.org</a> oder <a href="https://riot.im">Riot.im</a> bzw. <a
-                            href="https://element.io">element.io</a></h2>
+                            href="https://matrix.org/">Matrix.org</a> oder
+                            <a href="https://element.io">element.io</a></h2>
                     </div>
                 </div>
             </main>
