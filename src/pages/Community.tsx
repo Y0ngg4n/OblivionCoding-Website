@@ -53,9 +53,9 @@ function Community() {
                         <h1 className="p-4 text-center">Wie verbinde ich mich?</h1>
                         <div className="container">
                             <ul className="matrix-list">
-                                <li>Geh zu <a href="https://element.oblivioncoding.pro">element.oblivioncoding.pro</a> oder
+                                <li>Geh zu <a href="https://chat.obco.pro">chat.obco.pro</a> oder
                                     zu <a
-                                        href="https://roit.im/app">riot.im</a></li>
+                                        href="https://element.io/app">riot.im</a></li>
                                 <li>Klicke auf Account erstellen</li>
                                 <li>Wähle Erweitert oder Andere um einen angepassten Server einzutragen</li>
                                 <li>Gib folgende Adresse in das Feld mit der Heimserver-Adresse ein: <a

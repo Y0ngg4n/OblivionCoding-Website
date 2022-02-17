@@ -27,7 +27,8 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "react-cookie-banner": "4.1.0"
   },
   "scripts": {
     "build:css": "postcss src/style/pcss/*.css --base src/style/pcss --dir src/style/build",
