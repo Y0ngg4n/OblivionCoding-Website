@@ -2657,43 +2657,45 @@
     "@webassemblyjs/ast" "1.11.1"
     "@xtuc/long" "4.2.2"
 
-"@widgetbot/crate@^3.1.237":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@widgetbot/crate/-/crate-3.3.0.tgz#ded4736f95b4c6dc2c22e5a405bd21a874df3f5d"
-  integrity sha512-An/fA0Vf7WD9JHVW+T8xGoTD1Im6VeQWDYcC+6nXdS7/LaZMdNVNJzCd6tpULY0Qx7+8tibNHmn4z44KKvahOQ==
+"@widgetbot/crate@^3.5.2":
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/@widgetbot/crate/-/crate-3.5.2.tgz#d534bea031d16f2aa393e54feb1f89cdfe0b4407"
+  integrity sha512-UCcWga8Ktgm1bJVDxFePobvVJrhlkCcR87jgBgYp2elV2OGUg1URYi2p1NOguvTNVekUn2U+cO8MCQ+Fi6BHEA==
   dependencies:
     "@emotion/stylis" "^0.6.10"
-    "@widgetbot/embed-api" "^1.1.3"
-    "@widgetbot/react-embed" "^1.4.0"
-    color "^3.0.0"
+    "@widgetbot/embed-api" "^1.2.4"
+    "@widgetbot/react-embed" "^1.6.0"
+    color "^3.2.1"
     create-emotion "^9.2.4"
-    create-emotion-styled "^9.2.3"
+    create-emotion-styled "^9.2.8"
     emotion "^9.2.4"
     emotion-theming "^9.2.4"
     immer "^1.3.1"
-    react "^17.0.1"
-    react-dom "^17.0.1"
+    react "^17.0.2"
+    react-dom "^17.0.2"
     react-markdown "^5.0.3"
-    react-redux "^7.2.2"
-    react-shadow "^19.0.2"
-    react-transition-group "^4.4.1"
-    redux "^4.0.5"
+    react-redux "^7.2.8"
+    react-shadow "^19.0.3"
+    react-transition-group "^4.4.2"
+    redux "^4.2.0"
     redux-actions "^2.6.5"
     reflect-metadata "^0.1.13"
-    typescript "^4.1.3"
+    typescript "4.1.3"
 
-"@widgetbot/embed-api@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@widgetbot/embed-api/-/embed-api-1.1.3.tgz#c7fd8069d7ce2ec7740d8bf4140c786c636fb3d6"
-  integrity sha1-x/2AadfOLsd0DYv0FAx4bGNvs9Y=
+"@widgetbot/embed-api@^1.1.3", "@widgetbot/embed-api@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@widgetbot/embed-api/-/embed-api-1.2.4.tgz#7a97464c51f92414a9a1f4ccb0583dfb7f480031"
+  integrity sha512-VZTAOl5OBX8h9JaEdVgJAZiRahPoquZjpXNnCa73xRcLP3w1B8rsQ31buRk9d0jLdTqgWwsSrUu9XNGGJ3jL7Q==
+  dependencies:
+    post-robot "^8.0.28"
 
-"@widgetbot/react-embed@^1.2.2", "@widgetbot/react-embed@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@widgetbot/react-embed/-/react-embed-1.4.0.tgz#b0b617629e0e2cd6ff7a4770db34e0c52e056a43"
-  integrity sha512-rN/zyv8ndn+I3g1fCMql2NN+2Yn04XVhwL1GHQlSKEvFWNXsqEDyXO1MaDxcvJFcG7cSQLRTcvgVWzAVe+3Fag==
+"@widgetbot/react-embed@^1.2.2", "@widgetbot/react-embed@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@widgetbot/react-embed/-/react-embed-1.6.0.tgz#6338699c177a152061f03847306fd41c70c0633f"
+  integrity sha512-uNZpt9am+pHRsymEV6vZJey1lNApnX4KrIxKHdtHe9idYsAX3q179xBxGf489rBG9kczWvHM+vqB+HDms7O6kQ==
   dependencies:
     "@widgetbot/embed-api" "^1.1.3"
-    react "^16.13.1"
+    react "^18.2.0"
 
 "@xobotyi/scrollbar-width@1.9.5":
   version "1.9.5"
@@ -3612,7 +3614,7 @@ color-string@^1.6.0:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
 
-color@^3.0.0:
+color@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/color/-/color-3.2.1.tgz#3544dc198caf4490c3ecc9a790b54fe9ff45e164"
   integrity sha512-aBl7dZI9ENN6fUGC7mWpMTPNHmWUSNan9tuWN6ahh5ZLNk9baLJOnSMlrQkHcrfFgz2/RigjUVAjdx36VcemKA==
@@ -3812,7 +3814,7 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-create-emotion-styled@^9.2.3:
+create-emotion-styled@^9.2.8:
   version "9.2.8"
   resolved "https://registry.yarnpkg.com/create-emotion-styled/-/create-emotion-styled-9.2.8.tgz#c0050e768ba439609bec108600467adf2de67cc3"
   integrity sha512-2LrNM5MREWzI5hZK+LyiBHglwE18WE3AEbBQgpHQ1+zmyLSm/dJsUZBeFAwuIMb+TjNZP0KsMZlV776ufOtFdg==
@@ -3831,6 +3833,20 @@ create-emotion@^9.2.12, create-emotion@^9.2.4:
     csstype "^2.5.2"
     stylis "^3.5.0"
     stylis-rule-sheet "^0.0.10"
+
+cross-domain-safe-weakmap@^1.0.1:
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/cross-domain-safe-weakmap/-/cross-domain-safe-weakmap-1.0.29.tgz#0847975c27d9e1cc840f24c1745311958df98022"
+  integrity sha512-VLoUgf2SXnf3+na8NfeUFV59TRZkIJqCIATaMdbhccgtnTlSnHXkyTRwokngEGYdQXx8JbHT9GDYitgR2sdjuA==
+  dependencies:
+    cross-domain-utils "^2.0.0"
+
+cross-domain-utils@^2.0.0:
+  version "2.0.38"
+  resolved "https://registry.yarnpkg.com/cross-domain-utils/-/cross-domain-utils-2.0.38.tgz#2eaf321c4dfdb61596805ca4233fde4400cb6377"
+  integrity sha512-zZfi3+2EIR9l4chrEiXI2xFleyacsJf8YMLR1eJ0Veb5FTMXeJ3DpxDjZkto2FhL/g717WSELqbptNSo85UJDw==
+  dependencies:
+    zalgo-promise "^1.0.11"
 
 cross-spawn@^6.0.5:
   version "6.0.5"
@@ -7751,6 +7767,15 @@ popper.js@^1.14.1, popper.js@^1.16.1:
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
   integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
 
+post-robot@^8.0.28:
+  version "8.0.31"
+  resolved "https://registry.yarnpkg.com/post-robot/-/post-robot-8.0.31.tgz#0b5592b695d9252b86105b50b33d4469447349d5"
+  integrity sha512-nUhtKgtmcgyuPm4RnIhUB3gsDYJBHOgFry3TvOxhIHpgfwYY/T69d4oB90tw4YUllFZUUwqLEv1Wgyg6eOoJ7A==
+  dependencies:
+    cross-domain-safe-weakmap "^1.0.1"
+    cross-domain-utils "^2.0.0"
+    zalgo-promise "^1.0.3"
+
 postcss-attribute-case-insensitive@^4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/postcss-attribute-case-insensitive/-/postcss-attribute-case-insensitive-4.0.2.tgz#d93e46b504589e94ac7277b0463226c68041a880"
@@ -8905,7 +8930,7 @@ react-dom@^16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-dom@^17.0.1:
+react-dom@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
   integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
@@ -8950,10 +8975,10 @@ react-markdown@^5.0.3:
     unist-util-visit "^2.0.0"
     xtend "^4.0.1"
 
-react-redux@^7.2.2:
-  version "7.2.6"
-  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.2.6.tgz#49633a24fe552b5f9caf58feb8a138936ddfe9aa"
-  integrity sha512-10RPdsz0UUrRL1NZE0ejTkucnclYSgXp5q+tB5SWx2qeG2ZJQJyymgAhwKy73yiL/13btfB6fPr+rgbMAaZIAQ==
+react-redux@^7.2.8:
+  version "7.2.9"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.2.9.tgz#09488fbb9416a4efe3735b7235055442b042481d"
+  integrity sha512-Gx4L3uM182jEEayZfRbI/G11ZpYdNAnBs70lFVMNdHJI76XYtR+7m0MN+eAs7UHBPhWXcnFPaS+9owSCJQHNpQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@types/react-redux" "^7.1.20"
@@ -9051,18 +9076,18 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react-shadow@^19.0.2:
-  version "19.0.2"
-  resolved "https://registry.yarnpkg.com/react-shadow/-/react-shadow-19.0.2.tgz#af2594efe467ffc8d24789022280a5d2f6fae9cb"
-  integrity sha512-v0XXiMwIDgnvtT1DX4DU7VRgJO1k1nItDuedvWAWMhHaahagcJti4ffliwdBGRb9O77TFUz0nNKPzNxQQ9y1Ow==
+react-shadow@^19.0.3:
+  version "19.0.3"
+  resolved "https://registry.yarnpkg.com/react-shadow/-/react-shadow-19.0.3.tgz#4fa00f10cb1dfe2edd296684ff9807eef440ebb7"
+  integrity sha512-B1DoQC/rOyOjDdpgC1bd7nfhrYEF9ukV/vz8HcKaFTNmUkUmFnQCp4NHgEPxDfe3HJ1Mdr5ePzu+ZYAOvX6bNg==
   dependencies:
     humps "^2.0.1"
     react-use "^15.3.3"
 
-react-transition-group@^4.4.1:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.2.tgz#8b59a56f09ced7b55cbd53c36768b922890d5470"
-  integrity sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg==
+react-transition-group@^4.4.2:
+  version "4.4.5"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.5.tgz#e53d4e3f3344da8521489fbef8f2581d42becdd1"
+  integrity sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==
   dependencies:
     "@babel/runtime" "^7.5.5"
     dom-helpers "^5.0.1"
@@ -9103,13 +9128,20 @@ react@^16.13.1:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
 
-react@^17.0.1:
+react@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+
+react@^18.2.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
+  integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
+  dependencies:
+    loose-envify "^1.1.0"
 
 read-cache@^1.0.0:
   version "1.0.0"
@@ -9187,10 +9219,10 @@ redux-actions@^2.6.5:
     reduce-reducers "^0.4.3"
     to-camel-case "^1.0.0"
 
-redux@^4.0.0, redux@^4.0.5:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/redux/-/redux-4.1.2.tgz#140f35426d99bb4729af760afcf79eaaac407104"
-  integrity sha512-SH8PglcebESbd/shgf6mii6EIoRM0zrQyjcuQ+ojmfxjTtE0z9Y8pa62iA/OJ58qjP6j27uyW4kUF4jl/jd6sw==
+redux@^4.0.0, redux@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.2.0.tgz#46f10d6e29b6666df758780437651eeb2b969f13"
+  integrity sha512-oSBmcKKIuIR4ME29/AeNUnl5L+hvBq7OaJWzaptTQJAntaPvxIJqfnjbaEiCzzaIz+XmVILfqAM3Ob0aXLPfjA==
   dependencies:
     "@babel/runtime" "^7.9.2"
 
@@ -10490,10 +10522,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.1.3:
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
-  integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
+typescript@4.1.3:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.3.tgz#519d582bd94cba0cf8934c7d8e8467e473f53bb7"
+  integrity sha512-B3ZIOf1IKeH2ixgHhj6la6xdwR9QrLC5d1VKeCSY4tvkqhF2eqd9O7txNlS0PO3GrBAFIdr3L1ndNwteUbZLYg==
 
 typescript@~3.7.2:
   version "3.7.7"
@@ -11281,3 +11313,8 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zalgo-promise@^1.0.11, zalgo-promise@^1.0.3:
+  version "1.0.48"
+  resolved "https://registry.yarnpkg.com/zalgo-promise/-/zalgo-promise-1.0.48.tgz#9e33eef502d5ed9f5a09fc5728c833c3e87afa2e"
+  integrity sha512-LLHANmdm53+MucY9aOFIggzYtUdkSBFxUsy4glTTQYNyK6B3uCPWTbfiGvSrEvLojw0mSzyFJ1/RRLv+QMNdzQ==
